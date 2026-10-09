@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<reisid>
+
+    <reis id="R001" kliendiHinne="4.8">
+        <sihtkoht>Pariis, Prantsusmaa</sihtkoht>
+
+        <komponent tyyp="lennujaam">
+            <nimi>Charles de Gaulle'i lennujaam</nimi>
+            <detailid>
+                <kood>CDG</kood>
+                <terminal>2E</terminal>
+            </detailid>
+        </komponent>
+
+        <komponent tyyp="transport">
+            <lend hind="350">
+                <lennufirma>Air France</lennufirma>
+                <lennuNumber>AF123</lennuNumber>
+                <lahkumine>Tallinn</lahkumine>
+                <saabumine>Pariis</saabumine>
+            </lend>
+
+            <rong hind="60">
+                <ettevote>SNCF</ettevote>
+                <marsruut>Pariis - Versailles</marsruut>
+            </rong>
+        </komponent>
+
+        <komponent tyyp="majutus">
+            <hotell tarnid="4" hindOo="140">
+                <nimi>Hotel Paris Central</nimi>
+                <ood>3</ood>
+                <asukoht>Pariisi kesklinn</asukoht>
+            </hotell>
+        </komponent>
+
+        <komponent tyyp="ekskursioon">
+            <tuur hind="80">
+                <nimi>Eiffeli torni ekskursioon</nimi>
+                <kestus>3 tundi</kestus>
+                <giid>Inglise keel</giid>
+            </tuur>
+        </komponent>
+
+        <komponent tyyp="toitlustus">
+            <restoran hind="120">
+                <nimi>Le Gourmet</nimi>
+                <toidukorrad>6</toidukorrad>
+                <kook>Prantsuse</kook>
+            </restoran>
+        </komponent>
+
+        <komponent tyyp="kindlustus">
+            <kindlustusplaan hind="35">
+                <ettevote>TravelSafe</ettevote>
+                <katvus>Meditsiiniabi ja pagas</katvus>
+            </kindlustusplaan>
+        </komponent>
+
+        <komponent tyyp="muudKulud">
+            <kulud hind="50">
+                <kirjeldus>Uhistransport ja suveniirid</kirjeldus>
+                <valuuta>EUR</valuuta>
+            </kulud>
+        </komponent>
+    </reis>
+
+
+    <reis id="R002" kliendiHinne="4.5">
+        <sihtkoht>Rooma, Itaalia</sihtkoht>
+
+        <komponent tyyp="lennujaam">
+            <nimi>Leonardo da Vinci lennujaam</nimi>
+            <detailid>
+                <kood>FCO</kood>
+                <terminal>3</terminal>
+            </detailid>
+        </komponent>
+
+        <komponent tyyp="transport">
+            <lend hind="280">
+                <lennufirma>ITA Airways</lennufirma>
+                <lennuNumber>AZ201</lennuNumber>
+                <lahkumine>Tallinn</lahkumine>
+                <saabumine>Rooma</saabumine>
+            </lend>
+
+            <rong hind="45">
+                <ettevote>Trenitalia</ettevote>
+                <marsruut>Rooma - Firenze</marsruut>
+            </rong>
+        </komponent>
+
+        <komponent tyyp="majutus">
+            <hotell tarnid="3" hindOo="110">
+                <nimi>Roma Garden Hotel</nimi>
+                <ood>4</ood>
+                <asukoht>Rooma kesklinn</asukoht>
+            </hotell>
+        </komponent>
+
+        <komponent tyyp="ekskursioon">
+            <tuur hind="65">
+                <nimi>Colosseumi ekskursioon</nimi>
+                <kestus>2 tundi</kestus>
+                <giid>Inglise keel</giid>
+            </tuur>
+        </komponent>
+
+        <komponent tyyp="toitlustus">
+            <restoran hind="100">
+                <nimi>La Trattoria</nimi>
+                <toidukorrad>8</toidukorrad>
+                <kook>Itaalia</kook>
+            </restoran>
+        </komponent>
+
+        <komponent tyyp="kindlustus">
+            <kindlustusplaan hind="30">
+                <ettevote>SafeTrip</ettevote>
+                <katvus>Meditsiiniabi ja pagas</katvus>
+            </kindlustusplaan>
+        </komponent>
+
+        <komponent tyyp="muudKulud">
+            <kulud hind="40">
+                <kirjeldus>Metro ja suveniirid</kirjeldus>
+                <valuuta>EUR</valuuta>
+            </kulud>
+        </komponent>
+    </reis>
+
+
+    <reis id="R003" kliendiHinne="4.9">
+        <sihtkoht>London, Uhendkuningriik</sihtkoht>
+
+        <komponent tyyp="lennujaam">
+            <nimi>Heathrow lennujaam</nimi>
+            <detailid>
+                <kood>LHR</kood>
+                <terminal>5</terminal>
+            </detailid>
+        </komponent>
+
+        <komponent tyyp="transport">
+            <lend hind="320">
+                <lennufirma>British Airways</lennufirma>
+                <lennuNumber>BA456</lennuNumber>
+                <lahkumine>Tallinn</lahkumine>
+                <saabumine>London</saabumine>
+            </lend>
+
+            <rong hind="70">
+                <ettevote>Eurostar</ettevote>
+                <marsruut>London - Pariis</marsruut>
+            </rong>
+        </komponent>
+
+        <komponent tyyp="majutus">
+            <hotell tarnid="5" hindOo="190">
+                <nimi>Royal London Hotel</nimi>
+                <ood>9</ood>
+                <asukoht>   Westminster</asukoht>
+            </hotell>
+        </komponent>
+
+        <komponent tyyp="ekskursioon">
+            <tuur hind="95">
+                <nimi>London Eye ja linnaekskursioon</nimi>
+                <kestus>4 tundi</kestus>
+                <giid>Inglise keel</giid>
+            </tuur>
+        </komponent>
+
+        <komponent tyyp="toitlustus">
+            <restoran hind="150">
+                <nimi>The British Table</nimi>
+                <toidukorrad>6</toidukorrad>
+                <kook>Briti</kook>
+            </restoran>
+        </komponent>
+
+        <komponent tyyp="kindlustus">
+            <kindlustusplaan hind="40">
+                <ettevote>Global Travel</ettevote>
+                <katvus>Meditsiiniabi, pagas ja reisi tühistamine</katvus>
+            </kindlustusplaan>
+        </komponent>
+
+        <komponent tyyp="muudKulud">
+            <kulud hind="60">
+                <kirjeldus>Metro ja suveniirid</kirjeldus>
+                <valuuta>EUR</valuuta>
+            </kulud>
+        </komponent>
+    </reis>
+
+
+    <reis id="R004" kliendiHinne="4.2">
+        <sihtkoht>Helsingi, Soome</sihtkoht>
+
+        <komponent tyyp="lennujaam">
+            <nimi>Helsingi-Vantaa lennujaam</nimi>
+            <detailid>
+                <kood>HEL</kood>
+                <terminal>1</terminal>
+            </detailid>
+        </komponent>
+
+        <komponent tyyp="transport">
+            <buss hind="35">
+                <ettevote>Lux Express</ettevote>
+                <marsruut>Tallinn - Helsingi</marsruut>
+            </buss>
+
+            <parvlaev hind="55">
+                <ettevote>Tallink</ettevote>
+                <marsruut>Tallinn - Helsingi</marsruut>
+            </parvlaev>
+        </komponent>
+
+        <komponent tyyp="majutus">
+            <hotell tarnid="4" hindOo="120">
+                <nimi>Helsinki Central Hotel</nimi>
+                <ood>2</ood>
+                <asukoht>Helsingi kesklinn</asukoht>
+            </hotell>
+        </komponent>
+
+        <komponent tyyp="ekskursioon">
+            <tuur hind="50">
+                <nimi>Helsingi linnaekskursioon</nimi>
+                <kestus>2 tundi</kestus>
+                <giid>Inglise keel</giid>
+            </tuur>
+        </komponent>
+
+        <komponent tyyp="toitlustus">
+            <restoran hind="80">
+                <nimi>Nordic Kitchen</nimi>
+                <toidukorrad>4</toidukorrad>
+                <kook>Soome</kook>
+            </restoran>
+        </komponent>
+
+        <komponent tyyp="kindlustus">
+            <kindlustusplaan hind="25">
+                <ettevote>TravelSafe</ettevote>
+                <katvus>Meditsiiniabi</katvus>
+            </kindlustusplaan>
+        </komponent>
+
+        <komponent tyyp="muudKulud">
+            <kulud hind="30">
+                <kirjeldus>Kohalik transport</kirjeldus>
+                <valuuta>EUR</valuuta>
+            </kulud>
+        </komponent>
+    </reis>
+
+</reisid>

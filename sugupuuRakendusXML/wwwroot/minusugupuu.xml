@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--jada-->
+<inimene synd="1941">
+	<nimi>
+		Ema
+	</nimi>
+	<lapsed>
+		<inimene synd="1981">
+			<nimi>
+				Viktor
+			</nimi>
+			<lapsed>
+				<inimene synd="2008">
+					<nimi>
+						Adrian
+					</nimi>
+				</inimene>
+				<inimene synd="2009">
+					<nimi>
+						Illia
+					</nimi>
+				</inimene>
+				<inimene synd="2011">
+					<nimi>
+						Tim
+					</nimi>
+				</inimene>
+				<inimene synd="2019">
+					<nimi>
+						Veniamin
+					</nimi>
+				</inimene>
+
+			</lapsed>
+		</inimene>
+	</lapsed>
+</inimene>
